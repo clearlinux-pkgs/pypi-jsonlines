@@ -4,7 +4,7 @@
 #
 Name     : pypi-jsonlines
 Version  : 3.0.0
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/dd/fc/c207aafc82eb5d166b45723d9ff5844dde55474e0fc14f8180326779b996/jsonlines-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/dd/fc/c207aafc82eb5d166b45723d9ff5844dde55474e0fc14f8180326779b996/jsonlines-3.0.0.tar.gz
 Summary  : Library with helpers for the jsonlines file format
@@ -14,9 +14,6 @@ Requires: pypi-jsonlines-license = %{version}-%{release}
 Requires: pypi-jsonlines-python = %{version}-%{release}
 Requires: pypi-jsonlines-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: jsonlines
-Provides: jsonlines-python
-Provides: jsonlines-python3
 BuildRequires : pypi(attrs)
 
 %description
@@ -60,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641449303
+export SOURCE_DATE_EPOCH=1649770991
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
