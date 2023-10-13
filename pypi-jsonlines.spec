@@ -5,7 +5,7 @@
 #
 Name     : pypi-jsonlines
 Version  : 4.0.0
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/35/87/bcda8e46c88d0e34cad2f09ee2d0c7f5957bccdb9791b0b934ec84d84be4/jsonlines-4.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/35/87/bcda8e46c88d0e34cad2f09ee2d0c7f5957bccdb9791b0b934ec84d84be4/jsonlines-4.0.0.tar.gz
 Summary  : Library with helpers for the jsonlines file format
